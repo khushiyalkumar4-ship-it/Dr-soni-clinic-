@@ -20,7 +20,7 @@ export default function Hero() {
             Natural & Holistic Healing
           </span>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-slate-900 leading-[1.1] mb-6 tracking-tight">
-            Welcome to <span className="text-primary-500">Our Clinic</span>
+            Welcome to <span className="text-primary-500">Dr. Soni Homeopathy Clinic</span>
           </h2>
           <p className="text-slate-600 text-base sm:text-lg mb-10 leading-relaxed max-w-xl mx-auto lg:mx-0 font-medium opacity-80">
             We provide effective homeopathic treatment for all types of health problems. Specialized care with a side-effect-free approach by Dr. Soni.
@@ -78,7 +78,7 @@ export default function Hero() {
 
           <div className="relative z-10 bg-slate-100 w-[350px] h-[480px] rounded-[48px] shadow-2xl flex flex-col justify-end overflow-hidden border-[10px] border-white ring-1 ring-slate-200">
             <img 
-              src="dr_narendra_latest.webp" 
+              src="/dr_narendra_latest.jpg" 
               alt="Dr. Narendra Kumar Soni" 
               className="absolute inset-0 w-full h-full object-cover object-center"
               referrerPolicy="no-referrer"

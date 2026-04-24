@@ -26,7 +26,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-1">Chief Doctor</div>
-                    <div className="text-xl font-extrabold text-slate-900 leading-none tracking-tight">Dr. Devendra Soni</div>
+                    <div className="text-xl font-extrabold text-slate-900 leading-none tracking-tight">Dr. Devendra Kumar Soni</div>
                   </div>
                 </div>
 
@@ -59,7 +59,7 @@ export default function Contact() {
                     <div className="text-xl font-extrabold text-slate-900 leading-none hover:text-primary-500 transition-colors cursor-pointer tracking-tight text-sm">gorgeousdev.247@gmail.com</div>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center space-x-6 group">
                   <div className="w-14 h-14 rounded-2xl bg-white shadow-sm border border-slate-100 flex items-center justify-center text-primary-500 group-hover:bg-primary-500 group-hover:text-white transition-all">
                     <MapPin className="w-5 h-5" />
@@ -117,6 +117,23 @@ export default function Contact() {
                 </button>
               </form>
             </div>
+          </div>
+        </div>
+
+        {/* Google Map Section */}
+        <div className="mt-16 bg-slate-50 rounded-[60px] p-4 shadow-xl ring-1 ring-slate-100 overflow-hidden border border-white">
+          <div className="w-full h-[400px] md:h-[500px] rounded-[48px] overflow-hidden relative">
+            <iframe 
+              src="https://www.google.com/maps?q=Patel+Nagar,+Opp.+HDFC+Bank,+Akbarpur,+Ambedkar+Nagar,+UP+224122&output=embed"
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Dr. Soni Homeopathy Clinic Location"
+              className="absolute inset-0 grayscale hover:grayscale-0 transition-all duration-700"
+            ></iframe>
           </div>
         </div>
       </div>

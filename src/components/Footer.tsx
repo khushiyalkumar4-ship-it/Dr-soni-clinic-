@@ -8,11 +8,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 pb-16 border-b border-slate-100">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-3 mb-8">
-              <div className="bg-primary-500 p-2 rounded-lg">
-                <Plus className="w-6 h-6 text-white" />
+              <div className="w-12 h-12 rounded-lg overflow-hidden border border-slate-100 shadow-sm shrink-0 bg-white">
+                <img src="/logo.png" alt="Dr. Soni Logo" className="w-full h-full object-contain" />
               </div>
               <div>
-                <span className="text-xl font-extrabold text-slate-800 block leading-tight tracking-tight">Dr. Soni's Clinic</span>
+                <span className="text-xl font-extrabold text-slate-800 block leading-tight tracking-tight">Dr. Soni Homeopathy Clinic</span>
                 <span className="text-[10px] uppercase tracking-widest text-primary-500 font-bold">Devendra Kumar Soni</span>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function Footer() {
 
         <div className="pt-12 text-center flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-400 text-[10px] font-bold uppercase tracking-widest">
-            © {new Date().getFullYear()} Dr. Soni's Homeopathic Clinic. All Rights Reserved.
+            © {new Date().getFullYear()} Dr. Soni Homeopathy Clinic. All Rights Reserved.
           </p>
           <div className="flex gap-8 text-[10px] font-bold uppercase tracking-widest text-slate-400">
             <a href="#" className="hover:text-primary-500">Privacy Policy</a>

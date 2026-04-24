@@ -3,25 +3,18 @@ import { motion } from 'motion/react';
 
 const images = [
   {
-    url: 'team_chatgpt.webp',
+    url: '/team_chatgpt.jpg',
     fallback: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=800&auto=format&fit=crop',
     alt: 'Dr. Soni Homeopathy Team',
     title: 'Professional Team',
     desc: 'Our expert medical practitioners at the clinic.'
   },
   {
-    url: 'storefront.webp',
-    fallback: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=800&auto=format&fit=crop',
-    alt: 'Dr. Soni Clinic Storefront',
-    title: 'Clinic Facilities',
-    desc: 'Modern and hygienic environment for patient care.'
-  },
-  {
-    url: 'IMG-20260423-WA0020.jpg',
-    fallback: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=800&auto=format&fit=crop',
-    alt: 'Homeopathic Medicine',
-    title: 'Quality Care',
-    desc: 'Premium homeopathic medicines and precise treatment.'
+    url: '/new_image.jpg',
+    fallback: 'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=800&auto=format&fit=crop',
+    alt: 'Dr. Soni Gallery Image',
+    title: 'Expert Care',
+    desc: 'Dedicated to your holistic healing process.'
   }
 ];
 
@@ -35,7 +28,7 @@ export default function ClinicShowcase() {
           <div className="w-20 h-1.5 bg-primary-500 mx-auto rounded-full" />
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 max-w-4xl mx-auto gap-8">
           {images.map((img, idx) => (
             <GalleryItem key={idx} img={img} idx={idx} />
           ))}
@@ -67,7 +60,7 @@ function GalleryItem({ img, idx }: { img: typeof images[0], idx: number, key?: n
         <img 
           src={src} 
           alt={img.alt}
-          className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
+          className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
           onError={handleError}
           referrerPolicy="no-referrer"
         />

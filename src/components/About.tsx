@@ -20,9 +20,9 @@ export default function About() {
           >
             <div className="relative rounded-[56px] overflow-hidden border-8 border-slate-50 shadow-2xl bg-slate-50">
               <img 
-                src="dr_soni_new.webp" 
+                src="/dr_soni_new.jpg" 
                 alt="Dr. Soni - Clinic Owner" 
-                className="w-full h-[650px] object-cover object-center"
+                className="w-full h-[650px] object-cover object-top"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-primary-900/5" />
@@ -52,7 +52,7 @@ export default function About() {
               Leading the Way in <span className="text-primary-500">Modern Homeopathy</span>
             </h2>
             <p className="text-slate-600 text-lg font-medium leading-relaxed mb-8 opacity-80">
-              Dr. Soni's Homeopathy Clinic was founded with a single vision: to provide effective, side-effect-free healing that addresses the root cause of ailments. We combine traditional wisdom with modern clinical precision.
+              Dr. Soni Homeopathy Clinic was founded with a single vision: to provide effective, side-effect-free healing that addresses the root cause of ailments. We combine traditional wisdom with modern clinical precision.
             </p>
             
             <div className="space-y-6 mb-10">

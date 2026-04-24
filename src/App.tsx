@@ -9,6 +9,7 @@ import Hero from './components/Hero';
 import PromotionsBanner from './components/PromotionsBanner';
 import ClinicShowcase from './components/ClinicShowcase';
 import Services from './components/Services';
+import Wellness from './components/Wellness';
 import About from './components/About';
 import Team from './components/Team';
 import Testimonials from './components/Testimonials';
@@ -25,6 +26,7 @@ export default function App() {
         <Hero />
         <ClinicShowcase />
         <Services />
+        <Wellness />
         <About />
         <Team />
         <Testimonials />

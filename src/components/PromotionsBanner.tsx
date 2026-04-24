@@ -14,8 +14,8 @@ export default function PromotionsBanner() {
           {/* Decorative Doctor Figure (Left) */}
           <div className="absolute left-0 bottom-0 top-0 w-1/3 hidden md:block">
             <img 
-              src="dr_devendra_chatgpt.webp" 
-              alt="Dr. Devendra Soni" 
+              src="/dr_devendra_chatgpt.jpg" 
+              alt="Dr. Devendra Kumar Soni" 
               className="h-full w-full object-cover object-center opacity-90 transition-all duration-700"
               referrerPolicy="no-referrer"
             />

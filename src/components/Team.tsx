@@ -4,21 +4,21 @@ import { User } from 'lucide-react';
 
 const team = [
   {
-    name: 'Dr. Devendra kumar soni',
+    name: 'Dr. Devendra Kumar Soni',
     title: 'Senior Consultant (NIH Kolkata)',
-    image: 'dr_devendra_chatgpt.webp',
+    image: '/dr_devendra_chatgpt.jpg',
     credentials: 'B.H.M.S, NIH. Kolkata, West Bengal (Govt. of India)'
   },
   {
     name: 'Dr. Indrani Muthukuda',
     title: 'Senior Consultant (NIH Kolkata)',
-    image: 'dr_indrani_chatgpt.webp',
+    image: '/dr_indrani_chatgpt.jpg',
     credentials: 'B.H.M.S, NIH. Kolkata, West Bengal (Govt. of India)'
   },
   {
     name: 'Dr. Narendra Kumar Soni',
     title: 'Senior Consultant (NIH Kolkata)',
-    image: 'dr_narendra_latest.webp',
+    image: '/dr_narendra_latest.jpg',
     credentials: 'B.H.M.S, NIH. Kolkata, West Bengal (Govt. of India)'
   }
 ];
@@ -60,7 +60,7 @@ function TeamMember({ member, idx }: { member: typeof team[0], idx: number, key?
             <img 
               src={member.image} 
               alt={member.name}
-              className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
+              className="w-full h-full object-cover object-top transition-all duration-500 group-hover:scale-110"
               onError={() => setHasError(true)}
               referrerPolicy="no-referrer"
             />

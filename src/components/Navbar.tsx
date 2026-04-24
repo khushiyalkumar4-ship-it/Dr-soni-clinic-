@@ -42,11 +42,11 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto w-full flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <div className="bg-primary-500 p-2 rounded-lg">
-              <Plus className="w-6 h-6 text-white" />
+            <div className="w-12 h-12 rounded-lg overflow-hidden border border-slate-100 shadow-sm shrink-0 bg-white">
+              <img src="/logo.png" alt="Dr. Soni Logo" className="w-full h-full object-contain" />
             </div>
             <div className="leading-none">
-              <h1 className="text-xl font-extrabold text-slate-800 tracking-tight">Dr. Soni's Clinic</h1>
+              <h1 className="text-xl font-extrabold text-slate-800 tracking-tight">Dr. Soni Homeopathy Clinic</h1>
               <p className="text-[10px] text-slate-500 uppercase tracking-widest mt-1">Natural & Safe Treatment</p>
             </div>
           </div>
